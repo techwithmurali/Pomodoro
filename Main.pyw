@@ -166,7 +166,7 @@ def fnSettings():
     global top
     top = Toplevel()
     top.title("Pomodoro - Settings")
-    top.iconbitmap('images/pomo_short.ico')
+    top.iconbitmap('images/tomato.ico')
     top.config(padx=100, pady=50, bg='gray',borderwidth=2)
     frame_header = Frame(top)
     frame_header.config(relief = RIDGE,bg='gray',pady=0)
